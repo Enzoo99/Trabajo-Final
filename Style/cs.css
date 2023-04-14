@@ -22,27 +22,29 @@
 }
 
 header {
-    background-color: rgb(33, 33, 33);
-    color: white;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: flex-end;
-   
+  background-color: rgb(33, 33, 33);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between; 
+}
+.logok{
+  width: 75px;
 }
 
 header nav { 
-    display: flex;
-    align-items: center;
-    gap: 3vw;
-   
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+ 
 }
 nav a {
-    display: flex;
-    justify-content: space-between;
-    text-align: right;
-    color: white;
-    text-decoration: none;
-    
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  
 
 
 }
@@ -147,22 +149,22 @@ font-weight: bold;
     margin: 0 40px;
 }
 .bi-caret-up-fill {
-        background-color: grey;
-        color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        position: fixed;
-        right: 5%;
-        bottom: 5%;
-    
+  background-color: grey;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+
 }
 .bi-list{
-    display: none;
+display: none;
 }
 
 footer{
